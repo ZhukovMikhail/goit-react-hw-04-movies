@@ -49,7 +49,7 @@ export default function MovieDetailsPage() {
       <p>{movie.genres.map(genre => genre.name)}</p>
       <img src={imgUrl + movie.poster_path} alt="" />
       <hr />
-      <p>Addition information</p>
+      <p>Additional information</p>
       <ul>
         <li>
           <NavLink to={{ pathname: `/movies/${params.movieId}/casts` }}>
